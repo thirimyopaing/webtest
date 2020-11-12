@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comic list</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="testing.css">
+	<link rel="stylesheet" type="text/css" href="mdbootstrap/css/mdb.min.css">
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<!-- <div class="fixed-top"> -->
+	<div id="photo">
+	<img src="img/10.jpg">
+	</div>
+
+
+	<!-- nav -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#" id="batman">Comic Addict</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="testing.html">Home </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Comic list</a>
+      </li>
+       <li class="nav-item ">
+      <div class="dropdown">
+ 	 <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Genre</a>
+
+ 		<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    		<a class="dropdown-item" href="#">Superhero</a>
+    		<a class="dropdown-item" href="#">Manga</a>
+    		<a class="dropdown-item" href="#">Slice-of-Life</a>
+    		<a class="dropdown-item" href="#">Humor</a>
+    		<a class="dropdown-item" href="#">Non-fiction</a>
+    		<a class="dropdown-item" href="#">Sci-fi/Fantasy</a>
+    		<a class="dropdown-item" href="#">Horror</a>
+  		</div>
+		</div>
+		</li>
+       <li class="nav-item ">
+        <a class="nav-link" href="#">Latest release</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#">News</a>
+      </li>
+
+      <li class="nav-item " id="navright">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item " >
+        <a class="nav-link" href="#">Contact</a>
+      </li> 
+
+  	</ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 btn-outline-danger" id="outred" type="search" placeholder="type to search..." aria-label="Search">
+      <button class="btn btn-danger my-2 my-sm-0" id="red" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Best Comic of all time -->
+    <div class="container my-5 py-4">
+      <h3 class="text-center product_style" id="big">- Comic List -</h3><br>
+
+      <div class="buttonmid">
+      <a href="comic.html"><button type="button" class="btn btn-dark active">All</button></a>
+      <a href="comichero.html"><button type="button" class="btn btn-light">Superhero</button></a>
+      <a href="comicmanga.html"><button type="button" class="btn btn-light">Manga</button></a>
+      <a href="comicslice.html"><button type="button" class="btn btn-light">Slice of life</button></a>
+      <a href="comichumor.html"><button type="button" class="btn btn-light">Humor</button></a>
+      <a href="comicnon.html"><button type="button" class="btn btn-light">Non-fiction</button></a>
+      <a href="comicscifi.html"><button type="button" class="btn btn-light">Sci-fi/Fantasy</button></a>
+      <a href="comichorror.html"><button type="button" class="btn btn-light">Horror</button></a>
+    </div>
+
+<!-- ................................................................................................................. -->
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/26.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny"> Fantastic four EMPYRE</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#all1">
+            Details</button>
+          <!-- Modal -->
+          <div class="modal fade " id="all1" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Fantastic four EMPYRE</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/26.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Valerio Schiti</span><br>
+                <span><b>Written by:</b>Al Ewing</span><br>
+                <span><b>Published:</b>August 05, 2020</span><br>  
+                </div><br>
+                <div class="leftleft">
+                 THE GRASS IS ALWAYS GREENER - Tensions mount as the action heats up! As the attack on Wakanda intensifies, the heroes find themselves under attack from their enemies — and their allies! In a war where nobody can be fully trusted, betrayal cuts deep - as the alien invasion claims its first casualty! In this issue: The shock ending you never expected! You’ll want to frame it for your wall, True Believer!</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/27.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">The Amazing Spider-Man (2018) #35 </h5> 
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#all2">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="all2" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">The Amazing Spider man (2018) #35</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/27.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Jan Bazaldua</span><br>
+                <span><b>Written by:</b>Nick Spencer</span><br>
+                <span><b>Published: December 04, 2019</b>October 07, 2020</span><br>  
+                </div><br>
+                <div class="leftleft">
+                 Spider-Man. Doctor Doom. ‘Nuff said? NO WAY! The Chameleon has insane plans that have put all of NYC (and the very future of the universe!) in danger, and only Spider-Man can save the day. All he has to do is convince Doctor Doom to help him. Uh-oh.</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+        
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/28.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">Empyre: X-Men (2020)</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#all3">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="all3" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Empyre: X-Men (2020)</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/28.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Lucas Gomes Werneck</span><br>
+                <span><b>Written by:</b>Gerry Duggan, Leah Williams, Benjamin Percy</span><br>
+                <span><b>Published:</b>August 05, 2020</span><br>  
+                </div><br>
+                <div class="leftleft">
+                 Plant people from outer space have come to Earth and, wouldn’t you know it, they just happen to be here when millions of mutants rise as undead creatures hungry for human flesh. The X-Men return to Genosha in a tale so crazy, it’s taking the entire writing crew of the X-Men line to tackle it!</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/29.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">Uncanny X-Men (2018)</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#all4">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="all4" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Uncanny X-Men (2018) #20</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/29.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Salvador Larroca</span><br>
+                <span><b>Written by:</b>Matthew Rosenberg</span><br>
+                <span><b>Published:</b>June 19, 2019</span><br>  
+                </div><br>
+                <div class="leftleft">
+                 The mutant race faces elimination at the hands of a vaccine erasing the X-Gene from future generations…</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>         
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/23.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny"> Spiderman :absolute carnage</h5> 
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#all5">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="all5" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">The Amazing Spider man</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/23.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Tradd Moore, Ryan Ottley, Aaron Kuder, Mark Bagley</span><br>
+                <span><b>Written by:</b>Nick Spencer, Tradd Moore, Kurt Busiek, G. Willow Wilson</span><br>
+                <span><b>Published:</b>October 07, 2020</span><br>  
+                </div><br>
+                <div class="leftleft">
+                 AMAZING SPIDER-MAN reaches another landmark and we’re celebrating Spider-Style! As if things weren’t bad enough for Spider-Man with Sin-Eater’s reign of terror reaching riot level… THE GREEN GOBLIN IS BACK! Spidey has been through a lot, but even the worst things that have ever happened to Spider-Man have just been a prelude for what happens here, with an epic main story by a veritable Hall of Fame of Spider-Creators. As if that wasn’t enough, this issue also boasts a collection of prestige short stories by Tradd Moore, Kurt Busiek, Chris Bachalo & Saladin Ahmed!</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/30.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">Lords of Empyre: Celestial Messiah</h5>  
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#all6">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="all6" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Lords of Empyre: Celestial Messiah</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/30.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Tradd Moore, Ryan Ottley, Aaron Kuder, Mark Bagley</span><br>
+                <span><b>Written by:</b>Nick Spencer, Tradd Moore, Kurt Busiek, G. Willow Wilson</span><br>
+                <span><b>Published:</b>August 05, 2020</span><br>  
+                </div><br>
+                <div class="leftleft">
+                 AMAZING SPIDER-MAN reaches another landmark and we’re celebrating Spider-Style! As if things weren’t bad enough for Spider-Man with Sin-Eater’s reign of terror reaching riot level… THE GREEN GOBLIN IS BACK! Spidey has been through a lot, but even the worst things that have ever happened to Spider-Man have just been a prelude for what happens here, with an epic main story by a veritable Hall of Fame of Spider-Creators. As if that wasn’t enough, this issue also boasts a collection of prestige short stories by Tradd Moore, Kurt Busiek, Chris Bachalo & Saladin Ahmed!</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>       
+        </div>
+
+        
+
+       
+
+
+        
+      </div>
+    </div>
+
+<hr class="divide">
+
+
+
+
+
+<!-- footer -->
+		<div class="card text-white bg-dark mb-3"  style="max-width: 100rem;">
+  			<div class="card-header" id="batmanfoot">Comic Addict</div>
+  			<div class="card-body">	
+    			<h5 class="card-title footerfont">Follow us on Social Media:   
+    				<i class='bx bxl-facebook-circle iconcustom'></i>
+    				<i class='bx bxl-instagram-alt iconcustom' ></i>
+    				<i class='bx bxl-twitter iconcustom' ></i>
+    				<i class='bx bxl-youtube iconcustom' ></i>
+    				<i class='bx bxl-pinterest iconcustom'></i>
+    			</h5>
+    			<p class="card-title footerfont1">
+          All Site Content TM and © 2020 Comic Addict, unless otherwise noted here.@All rights reserved.</p>
+
+  			</div>
+		</div>
+
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
